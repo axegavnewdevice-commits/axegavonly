@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#573525"/><stop offset=".52" stop-color="#2c1b15"/><stop offset="1" stop-color="#111a27"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff0b8"/><stop offset=".5" stop-color="#d6a94a"/><stop offset="1" stop-color="#8e5b20"/></linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff5ce"/><stop offset="1" stop-color="#e5c985"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000" flood-opacity=".42"/></filter>
+  </defs>
+  <rect x="16" y="16" width="480" height="480" rx="104" fill="url(#wood)"/>
+  <rect x="28" y="28" width="456" height="456" rx="92" fill="none" stroke="url(#gold)" stroke-width="6"/>
+  <path d="M70 126 H442 M70 386 H442" stroke="#f5e6b9" stroke-opacity=".12" stroke-width="2"/>
+  <g filter="url(#shadow)" transform="rotate(-5 256 256)">
+    <rect x="93" y="82" width="326" height="348" rx="36" fill="url(#tile)" stroke="#7d5525" stroke-width="9"/>
+    <rect x="108" y="97" width="296" height="318" rx="25" fill="none" stroke="#fff9df" stroke-width="3" stroke-opacity=".9"/>
+    <text x="256" y="319" text-anchor="middle" font-size="258" font-family="Amiri, Noto Naskh Arabic, serif" font-weight="700" fill="#15553a" direction="rtl">ض</text>
+    <circle cx="351" cy="368" r="25" fill="#d3a349" stroke="#8b6125" stroke-width="3"/>
+    <text x="351" y="380" text-anchor="middle" font-size="32" font-family="Arial,sans-serif" font-weight="700" fill="#fff7dc">5</text>
+  </g>
+</svg>
